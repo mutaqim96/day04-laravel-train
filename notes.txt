@@ -1,0 +1,4 @@
+Step 01: Create Project guna laragon atau command.
+>> composer  create-project laravel/laravel namaprojek --prefer-dist
+
+*edit ".env file" ubah 
