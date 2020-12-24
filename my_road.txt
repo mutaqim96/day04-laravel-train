@@ -47,3 +47,8 @@ Folder dan File Structure dalam Laravel.
 * storage untuk kita store files gambar ke apa. default gambar 
 * tests
 * /vendor : store semua package2 yang dah di install
+* artisan : untuk command line
+* package.json : penting kalau kita nka guna fronteend library. 
+*server.php : rewrite some funcitonality of the apache server / server lain.
+*webpack.mix.js : bundling public file. penting kalau guna frontend framework.
+* boleh update dekat composer.json regarding dependency lepaas tu, run composer update.
