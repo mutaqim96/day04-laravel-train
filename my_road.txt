@@ -1,0 +1,49 @@
+* web server (Apache / Nginx)
+* application / service container 
+* Http / console kernels
+* bootstrapper ni daripada kernel. guna dia adalah untuk configure error handling,configure logging, detect application punya environment, dan buat tasks lain sebelum request tu kene handle. 
+* Think of the kernel as being a big black box that represents your entire application. Feed it HTTP requests and it will return HTTP responses.
+
+-------------
+WHAT IS COMPOSER
+-----
+
+* tengok composer.json = laravel akan buat composer.json. 
+*ada list of package.
+>>composer update. 
+* composer akan download smua dekat dalam vendor folder.
+>> composer require x/ypackage_name 
+
+---------------
+ISTALLING laravel
+-----------
+* Boleh Guna Laravel Installer atau Composer Create-Project
+* bergantung pada php version
+
+------------
+Folder dan File Structure dalam Laravel.
+------
+
+* Kene tahu kat mana kita akan write:
+                      HTML : resource.views
+                      Model :
+                      Controller :
+                      Routing :
+                      File Store:
+                      Config:
+                      database:
+
+* app direcotry ni resposible untk core code application.
+* app/Console/Kernel.php : tempat kita letak/buat custom command.
+* Exception folder untuk handling the expetions.
+* folder Http penting untuk: Controller(create interface antara database dan html):: Middle/ware untuk fillout the route, kekadang ada juga kita   guna untuk redirection
+* Models: connect ke database. satu file untuk handle satu table.
+* Providers: rarely  digunakan oleh beginner. kat sini kita code untuk pelbagai service. contoh authentication service, route service.
+* /Bootstrap dalam ni ada app.php; jarang lah kita akan sentuh file ni. load kan app kita ke dalam browser. folder cache akan store cache tiap kali kita access mana2 file.
+* cofig. : untuk kita configure semua benda
+* database. handle dataase. ada migration,seeders dengan factories.
+* /public : index.php file pertama di load kat browser.
+* route: untuk kita letak route
+* storage untuk kita store files gambar ke apa. default gambar 
+* tests
+* /vendor : store semua package2 yang dah di install
