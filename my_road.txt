@@ -87,3 +87,5 @@ Anchor tag
 * error sebab about page ni ada aku letak variable.
 IV question
 * why we use api.php and how we use this file.
+* api.php allows us to build api. kita boleh buat get/post/delete/put/patch to interact with other API.
+* web.php untuk web apps URLS, tapi api.php is for API's URL.
