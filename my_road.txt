@@ -61,3 +61,29 @@ Making first file
   * interview question.
 *cara nak tukar nama file view. boleh, pergi ke config/view.php
 * 'paths'=>[resource_path('paht to folder resource baru')]
+
+--------
+Routing with Example
+-------------
+          * What is Routing
+          * How to make routing
+          * Pass data with routing
+          * anchor tag
+          * redirect
+          * IV question
+
+What is routing
+* mapping over laravel page with specific url.
+How to make routing
+* edit atau buat route baru. lepas tu method. lepas tu function/callbacks.
+* dekat route atau view tu. takyah letak .blade.php punya extension pun.
+Passing data dengan routing
+* bergantung pada method mana kau guna(post/get dll). kalau get. just tambah kat tepi tu.
+* tapi kene define dekat dalam route web.blade.php.
+* kalau nak hantar variable ke page tadi. simply add dekat view('namaView', varToBeHantar)
+Anchor tag
+* dia akan append ke current url : kalau tak dia tak jumpa page. kau.
+*kalau nak terus pergi ke poage lain. guna redirect. so contoh kau buat redirect kat home / mesti orang tak dapat ke homepage sebab kene redirect.
+* error sebab about page ni ada aku letak variable.
+IV question
+* why we use api.php and how we use this file.
