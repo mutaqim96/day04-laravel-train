@@ -52,3 +52,12 @@ Folder dan File Structure dalam Laravel.
 *server.php : rewrite some funcitonality of the apache server / server lain.
 *webpack.mix.js : bundling public file. penting kalau guna frontend framework.
 * boleh update dekat composer.json regarding dependency lepaas tu, run composer update.
+
+======
+Making first file
+-------------
+  * make first change in file project.
+  * create first file
+  * interview question.
+*cara nak tukar nama file view. boleh, pergi ke config/view.php
+* 'paths'=>[resource_path('paht to folder resource baru')]

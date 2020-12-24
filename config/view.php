@@ -13,6 +13,8 @@ return [
     |
     */
 
+    //tukar path kalau x suka simpan dalam folder views
+
     'paths' => [
         resource_path('views'),
     ],
