@@ -89,3 +89,18 @@ IV question
 * why we use api.php and how we use this file.
 * api.php allows us to build api. kita boleh buat get/post/delete/put/patch to interact with other API.
 * web.php untuk web apps URLS, tapi api.php is for API's URL.
+
+---------------
+Controller
+---------------
+          What is Controller
+          Make Controlller 
+          Make Function in Controller
+          Call Controller from Routing
+          Pass Params with URL
+          IV Question
+
+What is Controller
+  *  a central unit of any mvc framework. dia akan fetch data daripada model dan hantar ke view.
+  * all router directly link to the controller.
+  * php artisan make:controller NamaControllers
