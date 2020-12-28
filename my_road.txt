@@ -103,4 +103,9 @@ Controller
 What is Controller
   *  a central unit of any mvc framework. dia akan fetch data daripada model dan hantar ke view.
   * all router directly link to the controller.
+
+How to make controller
   * php artisan make:controller NamaControllers
+
+Make Function in Controller.
+  
